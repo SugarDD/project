@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finding Doctors</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Playfair+Display:wght@400;700&family=Signika+Negative:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=DM+Sans&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-md navbar-dark"
+      style="background-color: #146c94; font-weight: 400"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand col-md-2" href="#"
+          ><img src="images/logo3.png" alt="logo" width="200px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="col-md-7 my-0 p-0 collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ms-auto d-flex">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="file:///C:/Users/lawas/Desktop/answer%20sheet/home.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="file:///C:/Users/lawas/Desktop/answer%20sheet/specialties.html"
+                class="nav-link"
+                >Specialties</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="file:///C:/Users/lawas/Desktop/answer%20sheet/doctorspage.html"
+                class="nav-link"
+                >Doctors</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Partner Hospital</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+
+          <div class="col-md-2 text-center">
+            <button class="btn btn-light" id="button1" type="submit">
+              Sign Up
+            </button>
+
+            <button class="btn btn-light" id="button2" type="submit">
+              Log in
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="row text-center text-light" id="find">
+      <h1 display-4>Are you looking for a <span>DOCTOR?</span></h1>
+      <div class="location col-md-12">
+        <form class="location_bar">
+          <button
+            type="submit
+      "
+          >
+            <img src="images/locationbar.png" width="45px" />
+          </button>
+          <input
+            type="text"
+            placeholder="Search Location
+            
+        "
+          />
+        </form>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row search_bar">
+        <form class="searchbar">
+          <button class="search" type="submit">
+            <img src="images/search.png" width="45px" />
+          </button>
+          <input type="text" placeholder="Search Specialty" />
+        </form>
+        <label class="text-center" id="needhelp"
+          ><a href="#">Need Help?</a></label
+        >
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row text-center" id="doctorsapplication">
+        <div class="offset-md-1 col-md-4">
+          <div class="mt-5">
+            <h2>
+              <span class="bold"> B</span>e <br />
+              <span class="bold"> Part</span> of our <br /><span class="bold"
+                >Growing</span
+              >
+              TEAM of Doctors
+            </h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Molestiae velit voluptates autem nemo quibusdam vero aspernatur
+              repellendus sint placeat ipsam eos sed, aliquid doloremque
+              obcaecati aliquam eligendi voluptatibus quae mollitia.
+            </p>
+            <button type="submit" class="btn btn-dark mt-3 mb-4" id="applynow">
+              APPLY NOW
+            </button>
+          </div>
+        </div>
+        <div class="vl col-md mt-5"></div>
+
+        <div class="offset-md-1 col-md-5 mt-5 mb-5">
+          <img
+            src="images/cover1.png"
+            alt="doctor"
+            class="img-fluid"
+            width="500px"
+          />
+        </div>
+        <div class="container-fluid" style="background-color: #afd3e2">
+          <div class="row col-md-12 text-center mt-4">
+            <h3>FEATURED DOCTORS</h3>
+          </div>
+          <!-- doctors panel -->
+          <div class="row mt-4 doctor-panel">
+            <div class="col-md-2 col-sm-2">
+              <div class="card text-center">
+                <a href="#">
+                  <img src="images/doctor_2.png" class="card-img-top"
+                /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Dr. Anderson S. Tory</h5>
+                  <a href="#"> <p id="title">Neurologist</p></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-2">
+              <div class="card text-center">
+                <a href="#">
+                  <img src="images/doctorc _1.png" class="card-img-top"
+                /></a>
+                <div class="card-body">
+                  <h5 class="card-title">Dr. Hashim N. Lagim</h5>
+                  <a href="#"> <p id="title">Pediatrician</p></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-3">
+              <a href="#">
+                <img
+                  src="images/doctor_1.png"
+                  class="img-fluid rounded-start"
+                  width="100%"
+              /></a>
+            </div>
+            <div class="col-md-5">
+              <h1 class="display-4 elena">Dr. Elena V. Semanta</h1>
+              <a href="#"> <p id="title">Dentist</p></a>
+              <hr />
+              <i
+                ><p
+                  class="qoute"
+                  style="font-family: 'Caveat', cursive; font-size: 1.2rem"
+                >
+                  " Hi,I'm Elena, 26 yrs old working as a dentist in Tondo,
+                  Manila. I've been working for 5 years being a dentist and I
+                  enjoyed it so much.Taking care of your teeth is such a good
+                  and an amazing job. I have my own clinic in Tondo wherein you
+                  can book an appointment and visit me sometimes."
+                </p></i
+              >
+              <button type="submit" class="btn btn-dark" id="appointmentbtn">
+                Book Appointment
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- specialty section 
+
+
+
+--
+
+
+
+-->
+
+    <div
+      class="row"
+      style="
+        background-color: #f1eaea;
+        min-height: 50vh;
+        justify-content: center;
+      "
+    >
+      <div class="pt-2 ps-5"><h3>SPECIALTIES:</h3></div>
+      <div class="col-md-2 mt-5 text-center">
+        <a href="#">
+          <img
+            src="images/general.png"
+            alt="nutrition"
+            class="img-fluid"
+            id="general"
+          />
+          <p class="label">GENERAL MEDICINE</p></a
+        >
+      </div>
+      <div class="col-md-2 mt-5 text-center">
+        <a href="#">
+          <img
+            src="images/pediatic_icon.jpg"
+            alt="pedia"
+            class="img-fluid"
+            id="pediatrics"
+          />
+
+          <p class="label">PEDIATRICS</p>
+        </a>
+      </div>
+      <div class="col-md-2 mt-5 text-center">
+        <a href="#"
+          ><img
+            src="images/obgyny.png"
+            alt="pedia"
+            class="img-fluid"
+            id="obgyny"
+          />
+
+          <p class="label">OBGYNE</p>
+        </a>
+      </div>
+      <div class="col-md-2 mt-5 text-center">
+        <a href="#">
+          <img
+            src="images/Heart-icon.png"
+            alt="pedia"
+            class="img-fluid"
+            id="cardiology"
+          />
+
+          <p class="label">CARDIOLOGY</p>
+        </a>
+      </div>
+      <div class="col-md-2 mt-5 text-center">
+        <a href="#"
+          ><img
+            src="images/SURGEON.png"
+            alt="pedia"
+            class="img-fluid"
+            id="surgeon"
+          />
+
+          <p class="label">SURGEON</p>
+        </a>
+      </div>
+      <!-- secondrow of doctors panel -->
+      <div class="row col-md-12" style="justify-content: center">
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#"
+            ><img
+              src="images/veterinary.png"
+              alt="pedia"
+              class="img-fluid"
+              id="animaldoctors"
+            />
+
+            <p class="label">ANIMAL DOCTORS</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#"
+            ><img
+              src="images/cancer.png"
+              alt="pedia"
+              class="img-fluid"
+              id="cancer"
+            />
+
+            <p class="label">CANCER</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/dental.png"
+              alt="pedia"
+              class="img-fluid"
+              id="dental"
+            />
+            <p class="label">DENTAL</p></a
+          >
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/ent-icon.png"
+              alt="pedia"
+              class="img-fluid"
+              id="ent"
+            />
+
+            <p class="label">EAR,NOSE & THROAT</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/diet and nutrition.png"
+              class="img-fluid"
+              id="dietnutrition"
+            />
+
+            <p class="label">DIET & NUTRITION</p>
+          </a>
+        </div>
+        <div class="col-md-12 text-center">
+          <a href="#" class="view">-View all-</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- partner hospital -->
+
+    <div class="row partner_hospital">
+      <div class="col-md-5 ms-5 p-0">
+        <div
+          id="carouselpartnerhospital"
+          class="carousel slide mt-3 mb-3"
+          data-bs-ride="carousel"
+          data-bs-interval="2000"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselpartnerhospital"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselpartnerhospital"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselpartnerhospital"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/hospital1.png"
+                class="d-block w-100"
+                alt="hospital1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/hospital2.png"
+                class="d-block w-100"
+                alt="hospital2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/hospital3.png"
+                class="d-block w-100"
+                alt="hospital3"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mt-2 text-center">
+        <h3 class="title">Popular Patner Hospitals:</h3>
+        <div class="table">
+          <table class="table">
+            <tr>
+              <th>Medical City</th>
+              <th>St.Luke Hospital</th>
+              <th>Chong Hua</th>
+            </tr>
+            <tr>
+              <td>
+                <small>
+                  Ortigas Avenue, <br />
+                  Pasig City, Metro Manila, Philippines|
+                  <br />
+                  (632) 8988-1000 (632) 8988-7000
+                </small>
+              </td>
+              <td>
+                <small>
+                  279 E Rodriguez Sr. Ave. Quezon City, 1112 | <br />
+                  +63-2-8521-0020 / +63-2-8521-8647
+                </small>
+              </td>
+              <td>
+                <small>
+                  Don Mariano Cui Street, Corner J. Llorente Street,
+                  <br />
+                  Brgy. Capitol Site, Cebu City, Cebu, Philippines 6000 | Call:
+                  +63 (32) 255-8000
+                </small>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!--  book appointment and payment method-->
+
+    <div class="row book_appointment">
+      <div class="form pt-5 m-5 col-md-6 d-none d-lg-block">
+        <div class="variable ms-5">
+          <div class="row variables">
+            <div>
+              <h3><b>Book an Appointment NOW!</b></h3>
+              <p>We are happy to serve you, book at your convenience...</p>
+            </div>
+            <div class="col-md-5 mb-3">
+              <form class="name">
+                <button type="submit">
+                  <img src="images/nameicon.png" alt="nameicon" width="35px" />
+                </button>
+                <input type="text" placeholder="Name" />
+              </form>
+            </div>
+
+            <div class="col-md-5">
+              <form class="email">
+                <button type="submit">
+                  <img
+                    src="images/emailicon.png"
+                    alt="emailicon"
+                    width="35px"
+                  />
+                </button>
+
+                <input type="email" placeholder="Email" />
+              </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <form class="phone">
+                <button type="submit">
+                  <img
+                    src="images/phone icon.png"
+                    alt="nameicon"
+                    width="35px"
+                  />
+                </button>
+                <input type="text" placeholder="Phone" />
+              </form>
+            </div>
+            <div class="col-md-3">
+              <form class="date">
+                <button type="submit">
+                  <img src="images/dateicon.png" alt="nameicon" width="30px" />
+                </button>
+                <input type="date" placeholder="Select date" />
+              </form>
+            </div>
+            <div class="col-md-3">
+              <form class="time">
+                <button type="submit">
+                  <img src="images/timeicon.png" alt="nameicon" width="32px" />
+                </button>
+                <input type="time" placeholder="Select time" />
+              </form>
+            </div>
+          </div>
+          <div class="mt-5 mb-5">
+            <button class="btn make-appointment" type="submit">
+              <span> Make Appointment</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="payment_method col-md-4 mt-4">
+        <h2>Acceptable Payment Methods</h2>
+        <p>For Online Consultation:</p>
+        <img src="images/payment method.png" class="img-fluid" />
+      </div>
+    </div>
+    <footer class="bg-dark p-5">
+      <div class="row">
+        <div class="links_footer col-md-2">
+          <h6>LINKS</h6>
+          <a href="#" id="linkfooter"><p>About Us</p></a>
+          <a href="#" id="linkfooter"> <p>Services</p> </a>
+          <a href="#" id="linkfooter"> <p>Our Doctors</p></a>
+          <a href="#" id="linkfooter"><p>Blog</p></a>
+          <a href="#" id="linkfooter"> <p>Partner Hospitals</p></a>
+        </div>
+
+        <div class="learn_links col-md-2">
+          <h6>LEARN</h6>
+          <a href="#" id="linkfooter"> <p>Diet and Nutrition</p></a>
+          <a href="#" id="linkfooter"> <p>Medication</p></a>
+          <a href="#" id="linkfooter"> <p>Home Remedy</p></a>
+        </div>
+
+        <div class="learn_links col-md-2">
+          <h6>LEGAL</h6>
+          <a href="#" id="linkfooter"> <p>Privacy Policy</p></a>
+          <a href="#" id="linkfooter"> <p>Terms and Condition</p></a>
+          <a href="#" id="linkfooter"> <p>Legality</p></a>
+          <a href="#" id="linkfooter"> <p>License</p></a>
+        </div>
+
+        <div class="learn_links col-md-3">
+          <h3>CONTACT US</h3>
+          <p>
+            Direct- <br />
+            Telephone number: s<code>(+1 212 3949 5000)</code> <br />
+            Mobile number: <code>(+6379858321)</code>
+          </p>
+        </div>
+        <div class="learn_links col-md-3 text-center">
+          <h3>CONNECT TO US</h3>
+          <p>
+            <a href="#"
+              ><img src="images/fb.logo.png" width="20px" class="fb me-2"
+            /></a>
+            <a href="#"
+              ><img src="images/insta.png" width="20px" class="insta me-2"
+            /></a>
+            <a href="#"
+              ><img src="images/twitter.png" width="20px" class="twitter me-2"
+            /></a>
+            <a href="#"><img src="images/whatsapp.png" width="20px" /></a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

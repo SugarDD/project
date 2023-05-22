@@ -1,0 +1,359 @@
+body {
+  background-image: linear-gradient(
+      rgba(16, 16, 16, 0.7),
+      rgba(229, 236, 236, 0.2)
+    ),
+    url(images/cover6.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.navbar {
+  background-color: #146c94;
+}
+.logo {
+  max-width: 120px;
+}
+.navbar-nav {
+  justify-content: space-between;
+  font-size: 1.25em;
+  gap: 0.75rem;
+}
+
+.navbar-brand {
+  padding: 0%;
+}
+
+#button1 {
+  border-radius: 20px;
+  color: rgb(24, 23, 23);
+}
+#button2 {
+  border-radius: 20px;
+  color: rgb(24, 23, 23);
+}
+#button1:hover {
+  background-color: #19a7ce;
+}
+#button2:hover {
+  background-color: #19a7ce;
+}
+
+span {
+  color: #19a7ce;
+  font-weight: bolder;
+}
+#needhelp a {
+  color: #19a7ce;
+}
+#needhelp a:hover {
+  color: darkblue;
+}
+
+#find {
+  max-width: auto;
+
+  margin: 0px;
+  padding: 0px;
+  margin-top: 100px;
+}
+.location {
+  padding: 0;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+}
+
+.location_bar {
+  max-width: 500px;
+  width: 100%;
+
+  background-color: white;
+  opacity: 70%;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 3px 15px;
+}
+.location_bar input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+
+  padding: 0;
+}
+
+.location_bar button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.search_bar {
+  padding: 0;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 150px;
+}
+.searchbar {
+  max-width: 500px;
+  width: 100%;
+
+  background-color: white;
+  opacity: 70%;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 3px 15px;
+}
+.search {
+  outline: none;
+  background: transparent;
+  border: none;
+}
+.searchbar input {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+label {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: rgb(7, 37, 62);
+
+  margin-right: 0%;
+  padding: 0%;
+}
+
+.vl {
+  border-right: solid lightgrey;
+  height: 350px;
+}
+#doctorsapplication {
+  background-color: #f1eaea;
+}
+.bold {
+  font-size: 3rem;
+  color: #146c94;
+}
+#title {
+  color: grey;
+}
+#title:hover {
+  color: #146c94;
+}
+a {
+  text-decoration: none;
+}
+.elena {
+  font-weight: 500;
+  color: #146c94;
+}
+
+#appointmentbtn {
+  border-radius: 60px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+#appointmentbtn:hover {
+  background-color: #19a7ce;
+}
+#applynow:hover {
+  background-color: #19a7ce;
+}
+#applynow {
+  border-radius: 60px;
+  color: white;
+}
+#hospital {
+  min-height: 50vh;
+  background-image: url(images/background2.png);
+}
+#general,
+#cancer,
+#surgeon,
+#animaldoctors,
+#dental,
+#ent,
+#dietnutrition,
+#cardiology,
+#obgyny,
+#pediatrics {
+  border-radius: 15px;
+}
+.label {
+  color: black;
+  font-weight: 500;
+}
+.label:hover {
+  color: #19a7ce;
+}
+.title {
+  font-weight: bolder;
+}
+.partner_hospital {
+  background-color: #afd3e2;
+}
+/* hospital descript */
+th,
+tr,
+td {
+  border-bottom: none;
+}
+td {
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+.name {
+  max-width: 300px;
+
+  background-color: white;
+  opacity: 70%;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 3px 15px;
+}
+
+.name input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-left: 8px;
+  padding: 0;
+}
+.name button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.email {
+  max-width: 300px;
+
+  background-color: white;
+  opacity: 70%;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 3px 15px;
+}
+.email input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-left: 8px;
+  padding: 0;
+}
+.email button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.date,
+.phone {
+  max-width: 200px;
+
+  background-color: white;
+  opacity: 70%;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 3px 15px;
+}
+.date input,
+.phone input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin-left: 0;
+  padding: 0;
+}
+.date button,
+.phone button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.time {
+  max-width: 150px;
+
+  background-color: white;
+  opacity: 70%;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 3px 15px;
+}
+.time input {
+  background: transparent;
+  margin-left: 0px;
+  padding: 0%;
+  outline: none;
+  border: none;
+}
+.time button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.book_appointment {
+  background-color: #f1eaea;
+}
+.form {
+  background-color: #146c94;
+  border-radius: 20px;
+}
+.links_footer {
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: x-small;
+}
+.learn_links {
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: x-small;
+}
+#linkfooter {
+  color: white;
+}
+#linkfooter:hover {
+  color: #19a7ce;
+}
+.make-appointment {
+  background-color: green;
+  border: none;
+}
+.btn span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: white;
+}
+
+.btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+
+  right: -20px;
+  transition: 0.2s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+  color: whitesmoke;
+  opacity: 75%;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.make-appointment:hover {
+  background-color: green;
+}

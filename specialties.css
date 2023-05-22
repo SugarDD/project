@@ -1,0 +1,86 @@
+body {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+#available {
+  background-image: linear-gradient(
+      rgba(64, 67, 67, 0.1),
+      rgba(30, 59, 59, 0.5)
+    ),
+    url(images/cover7.png);
+  min-height: 50vh;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: #146c94;
+}
+.logo {
+  max-width: 120px;
+}
+.navbar-nav {
+  justify-content: space-between;
+  font-size: 1.25em;
+  gap: 1rem;
+}
+
+.navbar-brand {
+  padding: 0%;
+}
+
+#button1 {
+  border-radius: 20px;
+}
+#button2 {
+  border-radius: 20px;
+}
+#button1:hover {
+  background-color: #19a7ce;
+}
+#button2:hover {
+  background-color: #19a7ce;
+}
+
+#general,
+#cancer,
+#surgeon,
+#animaldoctors,
+#dental,
+#ent,
+#dietnutrition,
+#cardiology,
+#obgyny,
+#pediatrics {
+  border-radius: 15px;
+}
+.label,
+a {
+  color: rgb(40, 38, 38);
+  font-weight: 700;
+  text-decoration: none;
+}
+.label:hover {
+  color: #19a7ce;
+}
+
+.links_footer {
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: x-small;
+}
+.learn_links {
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: x-small;
+}
+#linkfooter {
+  color: white;
+  letter-spacing: 1px;
+}
+#linkfooter:hover {
+  color: #19a7ce;
+}
