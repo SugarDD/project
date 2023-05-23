@@ -43,21 +43,13 @@
         >
           <ul class="navbar-nav ms-auto d-flex">
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="file:///C:/Users/lawas/Desktop/answer%20sheet/home.html"
-                >Home</a
-              >
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a
-                href="file:///C:/Users/lawas/Desktop/answer%20sheet/specialties.html"
-                class="nav-link"
-                >Specialties</a
-              >
+              <a href="specialties.html" class="nav-link">Specialties</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link active">Doctors</a>
+              <a href="doctorspage.html" class="nav-link active">Doctors</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Partner Hospital</a>
@@ -69,5 +61,42 @@
         </div>
       </div>
     </nav>
+    <div class="content">
+      <div class="row" id="searcharea">
+        <div class="col-md-6 search_bar">
+          <form class="searchbar">
+            <button class="btn btn-light" type="submit">
+              <img src="images/search.png" width="35px" />
+            </button>
+            <input type="text" placeholder="Search Specialty" />
+          </form>
+        </div>
+        <div class="col-md-4 location_bar">
+          <form class="locationbar">
+            <button class="btn btn-light" type="submit">
+              <img src="images/location icon.png" width="35px" />
+            </button>
+            <input type="text" placeholder="Location" />
+          </form>
+
+          <form class="filterbar">
+            <button class="btn btn-light" type="submit">
+              <img src="images/filter.jpg" width="37px" />
+            </button>
+            <input type="dropdown" placeholder="Filters" />
+          </form>
+        </div>
+      </div>
+      <div class="filters col-md-3">
+        <button
+          class="btn btn-primary d-flex"
+          type="submit"
+          id="filters"
+          style="float: right"
+        >
+          FILTERS (0)
+        </button>
+      </div>
+    </div>
   </body>
 </html>

@@ -2,13 +2,10 @@ body {
   font-family: "Playfair Display", serif;
   font-weight: 700;
 }
-#available {
-  background-image: linear-gradient(
-      rgba(64, 67, 67, 0.1),
-      rgba(30, 59, 59, 0.5)
-    ),
-    url(images/cover7.png);
-  min-height: 50vh;
+.content {
+  background-image: linear-gradient(rgba(64, 6, 6, 0.1), rgba(1, 8, 8, 0.5)),
+    url(images/cover8.png);
+  min-height: 100vh;
   justify-content: center;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,4 +27,76 @@ body {
 
 .navbar-brand {
   padding: 0%;
+}
+
+.search_bar {
+  padding: 2rem;
+  justify-content: right;
+  display: flex;
+}
+#searcharea {
+  justify-content: center;
+}
+.searchbar {
+  width: 500px;
+  background-color: white;
+  opacity: 70%;
+  display: flex;
+  align-items: right;
+  border-radius: 60px;
+  padding: 0px 10px;
+  margin: 0;
+}
+.btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.searchbar input {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+.location_bar {
+  padding: 2rem;
+  justify-content: left;
+  display: flex;
+}
+.locationbar {
+  width: 200px;
+  background-color: white;
+  opacity: 70%;
+  display: flex;
+  align-items: left;
+  border-radius: 60px;
+  padding: 0px;
+  margin-left: -40px;
+}
+.locationbar input {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.filterbar {
+  width: 150px;
+  background-color: white;
+  opacity: 70%;
+  display: flex;
+  align-items: left;
+  border-radius: 60px;
+  padding: 0px;
+}
+.filterbar input {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+#filters {
+  background-color: #146c94;
+  padding: 2px;
+  margin: 2px;
+  font-size: smaller;
+  margin-top: -30px;
+  margin-right: 50px;
 }
