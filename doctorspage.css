@@ -1,5 +1,5 @@
 body {
-  font-family: "Playfair Display", serif;
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
 }
 .content {
@@ -9,7 +9,7 @@ body {
   justify-content: center;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+
   background-size: cover;
 }
 
@@ -30,15 +30,15 @@ body {
 }
 
 .search_bar {
-  padding: 2rem;
-  justify-content: right;
+  padding: 2rem 1rem;
+  justify-content: left;
   display: flex;
 }
 #searcharea {
   justify-content: center;
 }
 .searchbar {
-  width: 500px;
+  width: 600px;
   background-color: white;
   opacity: 70%;
   display: flex;
@@ -71,7 +71,6 @@ body {
   align-items: left;
   border-radius: 60px;
   padding: 0px;
-  margin-left: -40px;
 }
 .locationbar input {
   outline: none;
@@ -95,8 +94,55 @@ body {
 #filters {
   background-color: #146c94;
   padding: 2px;
-  margin: 2px;
   font-size: smaller;
   margin-top: -30px;
-  margin-right: 50px;
+  margin-right: 60px;
+}
+#even {
+  padding: 0;
+  margin-bottom: 3px;
+  background: rgb(247, 237, 237);
+}
+#odd {
+  background: #afd3e2;
+  margin-bottom: 3px;
+}
+
+#Available_Schedule {
+  margin-left: 2rem;
+}
+
+#doctorspanel {
+  padding: 0;
+  margin: 0;
+}
+#book_now {
+  background: green;
+  margin: 10px 0;
+}
+#check_profile {
+  background: blue;
+  margin: 10px 0;
+}
+span a {
+  color: #146c94;
+}
+
+.links_footer {
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: x-small;
+}
+.learn_links {
+  color: whitesmoke;
+  font-weight: lighter;
+  font-size: x-small;
+}
+
+#linkfooter {
+  color: white;
+  text-decoration: none;
+}
+#linkfooter:hover {
+  color: #19a7ce;
 }
