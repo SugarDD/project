@@ -1,22 +1,9 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 body {
-  background-image: linear-gradient(
-      rgba(16, 16, 16, 0.7),
-      rgba(229, 236, 236, 0.2)
-    ),
-    url(images/cover6.jpg);
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
   font-family: "PT Sans", sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 1px;
 }
-.navbar {
+#navbar {
   background-color: #146c94;
 }
 .logo {
@@ -26,6 +13,9 @@ body {
   justify-content: space-between;
   font-size: 1.25em;
   gap: 0.75rem;
+}
+.navbar {
+  color: white;
 }
 
 .navbar-brand {
@@ -46,10 +36,25 @@ body {
 #button2:hover {
   background-color: #19a7ce;
 }
-
+#heroopening {
+  margin-top: 20vh;
+  color: white;
+}
+#hero_page {
+  background-image: linear-gradient(
+      rgba(16, 16, 16, 0.7),
+      rgba(229, 236, 236, 0.2)
+    ),
+    url(images/cover6.jpg);
+  background-position: center;
+  background-size: cover;
+}
 span {
   color: #19a7ce;
   font-weight: bolder;
+}
+#needhelp {
+  margin-bottom: 38vh;
 }
 #needhelp a {
   color: #19a7ce;
@@ -58,98 +63,79 @@ span {
   color: darkblue;
 }
 
-#find {
-  max-width: auto;
-
-  margin: 0px;
-  padding: 0px;
-  margin-top: 100px;
+.location_bar {
+  display: flex;
+  outline: none;
+  border-radius: 20px;
+  background-color: rgb(253, 239, 239);
+  opacity: 70%;
+  border: none;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
 }
-.location {
+#location {
   padding: 0;
   justify-content: center;
   display: flex;
   margin-top: 50px;
-}
-
-.location_bar {
-  max-width: 500px;
-  width: 100%;
-
-  background-color: white;
-  opacity: 70%;
-  display: flex;
-  align-items: center;
-  border-radius: 60px;
-  padding: 3px 15px;
+  margin-bottom: 10px;
 }
 .location_bar input {
   outline: none;
   border: none;
-  background-color: transparent;
-
-  padding: 0;
+  background: transparent;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
-
 .location_bar button {
   background: transparent;
-  outline: none;
   border: none;
+  outline: none;
 }
-.search_bar {
-  padding: 0;
-  justify-content: center;
-  display: flex;
-  margin-top: 20px;
-  margin-bottom: 150px;
-}
-.searchbar {
-  max-width: 500px;
-  width: 100%;
 
-  background-color: white;
-  opacity: 70%;
+.searchbar {
   display: flex;
+  outline: none;
+  border-radius: 20px;
+  background-color: rgb(254, 247, 247);
+  opacity: 70%;
+  border: none;
   align-items: center;
-  border-radius: 60px;
-  padding: 3px 15px;
+  width: 100%;
+  max-width: 400px;
+}
+.searchbar input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+#searchbar {
+  display: flex;
+  justify-content: center;
+  padding: 0;
 }
 .search {
   outline: none;
-  background: transparent;
   border: none;
-}
-.searchbar input {
   background: transparent;
-  outline: none;
-  border: none;
-}
-
-label {
-  font-size: 1.25rem;
-  font-weight: bold;
-  color: rgb(7, 37, 62);
-
-  margin-right: 0%;
-  padding: 0%;
-}
-
-.vl {
-  border-right: solid lightgrey;
-  height: 350px;
-}
-#doctorsapplication {
-  background-color: #f1eaea;
 }
 .bold {
   font-size: 3rem;
   color: #146c94;
 }
-#title {
-  color: grey;
+.vl {
+  border-right: solid lightgrey;
+  height: 350px;
 }
-#title:hover {
-  color: #146c94;
+#doctorsapplication {
+  background: #f1eaea;
+}
+#doctorslist {
+  background: #afd3e2;
+}
+#applynow:hover {
+  background: #19a7ce;
 }
 a {
   text-decoration: none;
@@ -158,27 +144,32 @@ a {
   font-weight: 500;
   color: #146c94;
 }
-
-#appointmentbtn {
-  border-radius: 60px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  color: white;
+#title {
+  color: grey;
+}
+#title:hover {
+  color: #146c94;
+}
+#doctorsapplication {
+  background-color: #f1eaea;
+}
+.bold {
+  font-size: 3rem;
+  color: #146c94;
+}
+label {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: rgb(7, 37, 62);
 }
 #appointmentbtn:hover {
-  background-color: #19a7ce;
+  background: #19a7ce;
 }
-#applynow:hover {
-  background-color: #19a7ce;
-}
-#applynow {
-  border-radius: 60px;
-  color: white;
-}
-#hospital {
+#speciallist {
+  background-color: #f1eaea;
   min-height: 50vh;
-  background-image: url(images/background2.png);
 }
+
 #general,
 #cancer,
 #surgeon,
@@ -204,7 +195,6 @@ a {
 .partner_hospital {
   background-color: #afd3e2;
 }
-/* hospital descript */
 th,
 tr,
 td {
