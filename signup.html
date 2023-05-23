@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finding Doctors</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Playfair+Display:wght@400;700&family=Signika+Negative:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="form-box">
+        <a href="file:///C:/Users/lawas/Desktop/answer%20sheet/home.html">
+          <img
+            src="images/closeicon.png"
+            alt="close"
+            width="30px"
+            id="closeicon"
+        /></a>
+
+        <h1 id="title">Sign Up</h1>
+
+        <form>
+          <div class="input-group">
+            <div class="input-field" id="namefield">
+              <img src="images/name.png" alt="nameicon" width="25px" />
+              <input type="text" placeholder="Name" />
+            </div>
+            <div class="input-field">
+              <img src="images/envelope.png" alt="envelopeicon" width="25px" />
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <img src="images/lockicon.png" alt="lockicon" width="25px" />
+              <input type="password" placeholder="Password" />
+            </div>
+            <p>Lost Password <a href="#"> Click Here!</a></p>
+          </div>
+          <div class="btn-field">
+            <button type="button" id="signupBtn">Sign Up</button>
+            <button type="button" id="loginBtn">Log In</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script>
+      let signupBtn = document.getElementById("signupBtn");
+      let loginBtn = document.getElementById("loginBtn");
+      let namefield = document.getElementById("namefield");
+      let title = document.getElementById("title");
+
+      loginBtn.onclick = function () {
+        namefield.style.maxHeight = 0;
+        title.innerHTML = "Log In";
+        signupBtn.classList.add("disable");
+        loginBtn.classList.remove("disable");
+      };
+
+      signupBtn.onclick = function () {
+        namefield.style.maxHeight = "60px";
+        title.innerHTML = "Sign Up";
+        signupBtn.classList.remove("disable");
+        loginBtn.classList.Add("disable");
+      };
+    </script>
+  </body>
+</html>
