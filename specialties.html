@@ -25,285 +25,299 @@
     <link rel="stylesheet" href="specialties.css" />
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-md navbar-dark"
-      style="background-color: #146c94; font-weight: 400"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand col-md-3" href="#"
-          ><img src="images/logo3.png" alt="logo" width="200px"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
+    <div class="container-fluid">
+      <div class="row" id="navbar">
+        <nav
+          class="navbar navbar-expand-md navbar-expand-sm navbar-expand-lg navbar-dark"
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="col-md-5 my-0 collapse navbar-collapse"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav ms-auto d-flex">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="specialties.html" class="nav-link active">Specialties</a>
-            </li>
-            <li class="nav-item">
-              <a href="doctorspage.html" class="nav-link">Doctors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Partner Hospital</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact us</a>
-            </li>
-          </ul>
+          <a class="navbar-brand col-md-2 col-sm-2 col-none-2" href="index.html"
+            ><img src="images/logo3.png" alt="logo" width="200px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="col-md-7 col-none-7 my-0 p-0 collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto d-flex">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="specialties.html" class="nav-link active"
+                  >Specialties</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="doctorspage.html" class="nav-link">Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Partner Hospital</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+
+            <div class="col-md-2 col-none-2 text-center">
+              <button class="btn btn-light" id="button1" type="submit">
+                <a href="signup.html"> Sign Up | Log In</a>
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="row pe-5 ps-5" id="available">
+        <div class="pt-2 ps-5 text-dark">
+          <b><h3>Available Specialties:</h3></b>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/general.png"
+              alt="nutrition"
+              class="img-fluid"
+              id="general"
+            />
+            <p class="label">GENERAL MEDICINE</p></a
+          >
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/pediatic_icon.jpg"
+              alt="pedia"
+              class="img-fluid"
+              id="pediatrics"
+            />
+
+            <p class="label">PEDIATRICS</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#"
+            ><img
+              src="images/obgyny.png"
+              alt="pedia"
+              class="img-fluid"
+              id="obgyny"
+            />
+
+            <p class="label">OBGYNE</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/Heart-icon.png"
+              alt="pedia"
+              class="img-fluid"
+              id="cardiology"
+            />
+
+            <p class="label">CARDIOLOGY</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#"
+            ><img
+              src="images/SURGEON.png"
+              alt="pedia"
+              class="img-fluid"
+              id="surgeon"
+            />
+
+            <p class="label">SURGEON</p>
+          </a>
+        </div>
+
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#"
+            ><img
+              src="images/veterinary.png"
+              alt="pedia"
+              class="img-fluid"
+              id="animaldoctors"
+            />
+
+            <p class="label">ANIMAL DOCTORS</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#"
+            ><img
+              src="images/cancer.png"
+              alt="pedia"
+              class="img-fluid"
+              id="cancer"
+            />
+
+            <p class="label">CANCER</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/dental.png"
+              alt="pedia"
+              class="img-fluid"
+              id="dental"
+            />
+            <p class="label">DENTAL</p></a
+          >
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/ent-icon.png"
+              alt="pedia"
+              class="img-fluid"
+              id="ent"
+            />
+
+            <p class="label">EAR,NOSE & THROAT</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/diet and nutrition.png"
+              class="img-fluid"
+              id="dietnutrition"
+            />
+
+            <p class="label">DIET & NUTRITION</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/dermatology.png"
+              class="img-fluid"
+              id="dietnutrition"
+            />
+
+            <p class="label">SKIN DOCTOR</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/eye vsion.png"
+              class="img-fluid"
+              id="dietnutrition"
+            />
+
+            <p class="label">EYE & VISION DOCTOR</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/mental_health.png"
+              class="img-fluid"
+              id="dietnutrition"
+            />
+
+            <p class="label">MENTAL HEALTH</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/orthopedics.png"
+              class="img-fluid"
+              id="dietnutrition"
+            />
+
+            <p class="label">ORTHOPHEDIC SURGERY</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/sleepdoctors.png"
+              class="img-fluid"
+              id="dietnutrition"
+            />
+
+            <p class="label">SLEEP DOCTORS</p>
+          </a>
+        </div>
+        <div class="col-md-2 mt-5 text-center">
+          <a href="#">
+            <img
+              src="images/radiologist.png"
+              class="img-fluid"
+              id="dietnutrition"
+            />
+
+            <p class="label">RADIOLOGY</p>
+          </a>
         </div>
       </div>
-    </nav>
-    <div class="row pe-5 ps-5" id="available">
-      <div class="pt-2 ps-5 text-dark">
-        <b><h3>Available Specialties:</h3></b>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#">
-          <img
-            src="images/general.png"
-            alt="nutrition"
-            class="img-fluid"
-            id="general"
-          />
-          <p class="label">GENERAL MEDICINE</p></a
-        >
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#">
-          <img
-            src="images/pediatic_icon.jpg"
-            alt="pedia"
-            class="img-fluid"
-            id="pediatrics"
-          />
+      <div class="row bg-dark pt-4">
+        <footer>
+          <div class="row">
+            <div class="links_footer col-md-2">
+              <h6>LINKS</h6>
+              <a href="#" id="linkfooter"><p>About Us</p></a>
+              <a href="#" id="linkfooter"> <p>Services</p> </a>
+              <a href="#" id="linkfooter"> <p>Our Doctors</p></a>
+              <a href="#" id="linkfooter"><p>Blog</p></a>
+              <a href="#" id="linkfooter"> <p>Partner Hospitals</p></a>
+            </div>
 
-          <p class="label">PEDIATRICS</p>
-        </a>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#"
-          ><img
-            src="images/obgyny.png"
-            alt="pedia"
-            class="img-fluid"
-            id="obgyny"
-          />
+            <div class="learn_links col-md-2">
+              <h6>LEARN</h6>
+              <a href="#" id="linkfooter"> <p>Diet and Nutrition</p></a>
+              <a href="#" id="linkfooter"> <p>Medication</p></a>
+              <a href="#" id="linkfooter"> <p>Home Remedy</p></a>
+            </div>
 
-          <p class="label">OBGYNE</p>
-        </a>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#">
-          <img
-            src="images/Heart-icon.png"
-            alt="pedia"
-            class="img-fluid"
-            id="cardiology"
-          />
+            <div class="learn_links col-md-2">
+              <h6>LEGAL</h6>
+              <a href="#" id="linkfooter"> <p>Privacy Policy</p></a>
+              <a href="#" id="linkfooter"> <p>Terms and Condition</p></a>
+              <a href="#" id="linkfooter"> <p>Legality</p></a>
+              <a href="#" id="linkfooter"> <p>License</p></a>
+            </div>
 
-          <p class="label">CARDIOLOGY</p>
-        </a>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#"
-          ><img
-            src="images/SURGEON.png"
-            alt="pedia"
-            class="img-fluid"
-            id="surgeon"
-          />
-
-          <p class="label">SURGEON</p>
-        </a>
-      </div>
-
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#"
-          ><img
-            src="images/veterinary.png"
-            alt="pedia"
-            class="img-fluid"
-            id="animaldoctors"
-          />
-
-          <p class="label">ANIMAL DOCTORS</p>
-        </a>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#"
-          ><img
-            src="images/cancer.png"
-            alt="pedia"
-            class="img-fluid"
-            id="cancer"
-          />
-
-          <p class="label">CANCER</p>
-        </a>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#">
-          <img
-            src="images/dental.png"
-            alt="pedia"
-            class="img-fluid"
-            id="dental"
-          />
-          <p class="label">DENTAL</p></a
-        >
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#">
-          <img
-            src="images/ent-icon.png"
-            alt="pedia"
-            class="img-fluid"
-            id="ent"
-          />
-
-          <p class="label">EAR,NOSE & THROAT</p>
-        </a>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#">
-          <img
-            src="images/diet and nutrition.png"
-            class="img-fluid"
-            id="dietnutrition"
-          />
-
-          <p class="label">DIET & NUTRITION</p>
-        </a>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#">
-          <img
-            src="images/dermatology.png"
-            class="img-fluid"
-            id="dietnutrition"
-          />
-
-          <p class="label">SKIN DOCTOR</p>
-        </a>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#">
-          <img
-            src="images/eye vsion.png"
-            class="img-fluid"
-            id="dietnutrition"
-          />
-
-          <p class="label">EYE & VISION DOCTOR</p>
-        </a>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#">
-          <img
-            src="images/mental_health.png"
-            class="img-fluid"
-            id="dietnutrition"
-          />
-
-          <p class="label">MENTAL HEALTH</p>
-        </a>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#">
-          <img
-            src="images/orthopedics.png"
-            class="img-fluid"
-            id="dietnutrition"
-          />
-
-          <p class="label">ORTHOPHEDIC SURGERY</p>
-        </a>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#">
-          <img
-            src="images/sleepdoctors.png"
-            class="img-fluid"
-            id="dietnutrition"
-          />
-
-          <p class="label">SLEEP DOCTORS</p>
-        </a>
-      </div>
-      <div class="col-md-2 mt-5 text-center">
-        <a href="#">
-          <img
-            src="images/radiologist.png"
-            class="img-fluid"
-            id="dietnutrition"
-          />
-
-          <p class="label">RADIOLOGY</p>
-        </a>
+            <div class="learn_links col-md-3">
+              <h3>CONTACT US</h3>
+              <p>
+                Direct- <br />
+                Telephone number: s<code>(+1 212 3949 5000)</code> <br />
+                Mobile number: <code>(+6379858321)</code>
+              </p>
+            </div>
+            <div class="learn_links col-md-3 text-center">
+              <h3>CONNECT TO US</h3>
+              <p>
+                <a href="#"
+                  ><img src="images/fb.logo.png" width="20px" class="fb me-2"
+                /></a>
+                <a href="#"
+                  ><img src="images/insta.png" width="20px" class="insta me-2"
+                /></a>
+                <a href="#"
+                  ><img
+                    src="images/twitter.png"
+                    width="20px"
+                    class="twitter me-2"
+                /></a>
+                <a href="#"><img src="images/whatsapp.png" width="20px" /></a>
+              </p>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
-    <footer class="bg-dark p-5">
-      <div class="row">
-        <div class="links_footer col-md-2">
-          <h6>LINKS</h6>
-          <a href="#" id="linkfooter"><p>About Us</p></a>
-          <a href="#" id="linkfooter"> <p>Services</p> </a>
-          <a href="#" id="linkfooter"> <p>Our Doctors</p></a>
-          <a href="#" id="linkfooter"><p>Blog</p></a>
-          <a href="#" id="linkfooter"> <p>Partner Hospitals</p></a>
-        </div>
-
-        <div class="learn_links col-md-2">
-          <h6>LEARN</h6>
-          <a href="#" id="linkfooter"> <p>Diet and Nutrition</p></a>
-          <a href="#" id="linkfooter"> <p>Medication</p></a>
-          <a href="#" id="linkfooter"> <p>Home Remedy</p></a>
-        </div>
-
-        <div class="learn_links col-md-2">
-          <h6>LEGAL</h6>
-          <a href="#" id="linkfooter"> <p>Privacy Policy</p></a>
-          <a href="#" id="linkfooter"> <p>Terms and Condition</p></a>
-          <a href="#" id="linkfooter"> <p>Legality</p></a>
-          <a href="#" id="linkfooter"> <p>License</p></a>
-        </div>
-
-        <div class="learn_links col-md-3">
-          <h3>CONTACT US</h3>
-          <p>
-            Direct- <br />
-            Telephone number: <code>(+1 212 3949 5000)</code> <br />
-            Mobile number: <code>(+6379858321)</code>
-          </p>
-        </div>
-        <div class="learn_links col-md-3 text-center">
-          <h3>CONNECT TO US</h3>
-          <p>
-            <a href="#"
-              ><img src="images/fb.logo.png" width="20px" class="fb me-2"
-            /></a>
-            <a href="#"
-              ><img src="images/insta.png" width="20px" class="insta me-2"
-            /></a>
-            <a href="#"
-              ><img src="images/twitter.png" width="20px" class="twitter me-2"
-            /></a>
-            <a href="#"><img src="images/whatsapp.png" width="20px" /></a>
-          </p>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>
